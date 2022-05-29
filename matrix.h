@@ -16,9 +16,11 @@ matrix *read_matrix();
 // печатает матрицу в обоих представлениях
 void print(matrix *matr);
 
+// найти элемент 
+int find(matrix * matr, int key);
 
-
-
+// выполнить задание
+matrix task(matrix * matr);
 
 
 
