@@ -13,7 +13,8 @@ typedef struct {
 // считывание матрицы
 matrix *read_matrix();
 
-
+// печатает матрицу в обоих представлениях
+void print(matrix *matr);
 
 
 

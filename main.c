@@ -1,7 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "matrix.h";
+#include "matrix.h"
+
+
 
 int main(){
-    printf("hello world\n");
+    matrix *matr = read_matrix();
+    printf("--------------------------\n");
+    printf("before transformation:\n");
+    printf("--------------------------\n");
+    print(matr);
+    printf("--------------------------\n");
+    printf("after transformation\n");
+    printf("--------------------------\n");
+    print(matr);
+    printf("--------------------------\n");
 }
