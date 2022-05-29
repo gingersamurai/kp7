@@ -14,7 +14,6 @@ int main(){
     *matr = task(matr);
     printf("after transformation\n");
     printf("--------------------------\n");
-    // printf("%d %d\n", matr->size_n, matr->size_m);
     print(matr);
     printf("--------------------------\n");
 }
