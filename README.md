@@ -109,7 +109,7 @@ matrix task(matrix * matr);
 ```
 
 
-**queue.c**
+**matrix.c**
 ```c
 #include <stdio.h>
 #include <stdlib.h>
